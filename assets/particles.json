@@ -8,7 +8,7 @@
       }
     },
     "color": {
-      "value": ["#734f96"]
+      "value": ["#dc052d"]
     },
     "shape": {
       "type": "polygon",
@@ -24,7 +24,7 @@
       "value": 0.7,
       "random": true,
       "anim": {
-        "enable": true,
+        "enable": false,
         "speed": 1,
         "opacity_min": 0.4,
         "sync": false
@@ -45,14 +45,14 @@
     },
     "move": {
       "enable": true,
-      "speed": 2,
-      "direction": "bottom-left",
+      "speed": 1,
+      "direction": "bottom",
       "random": true,
       "straight": false,
       "out_mode": "out",
-      "bounce": true,
+      "bounce": false,
       "attract": {
-        "enable": true,
+        "enable": false,
         "rotateX": 1200,
         "rotateY": 600
       }
@@ -62,25 +62,13 @@
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": true
-        "mode": "repulse"
+        "enable": false
       },
       "onclick": {
         "enable": true,
-        "mode": "grab"
+        "mode": "repulse"
       },
-      "resize": true,
-      "modes": {
-        "grab": {
-          "line_linked": {
-            "opacity": 0.75
-          }
-        },
-        "repluse": {
-          distance: 200,
-          duration: 1.2
-        }
-      }
+      "resize": true
     },
     "retina_detect": true
   }
