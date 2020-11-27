@@ -8,23 +8,20 @@
       }
     },
     "color": {
-      "value": ["#dc052d"]
+      "value": ["#734f96"]
     },
     "shape": {
-      "type": "polygon",
+      "type": "circle",
       "stroke": {
         "width": 0,
         "color": "#000000"
       },
-      "polygon": {
-        "nb_sides": 4
-      }
     },
     "opacity": {
       "value": 0.7,
       "random": true,
       "anim": {
-        "enable": false,
+        "enable": true,
         "speed": 1,
         "opacity_min": 0.4,
         "sync": false
@@ -45,14 +42,14 @@
     },
     "move": {
       "enable": true,
-      "speed": 1,
-      "direction": "bottom",
+      "speed": 2,
+      "direction": "bottom-left",
       "random": true,
       "straight": false,
       "out_mode": "out",
-      "bounce": false,
+      "bounce": true,
       "attract": {
-        "enable": false,
+        "enable": true,
         "rotateX": 1200,
         "rotateY": 600
       }
@@ -62,13 +59,25 @@
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": false
+        "enable": true
+        "mode": "repulse"
       },
       "onclick": {
         "enable": true,
-        "mode": "repulse"
+        "mode": "grab"
       },
-      "resize": true
+      "resize": true,
+      "modes": {
+        "grab": {
+          "line_linked": {
+            "opacity": 0.75
+          }
+        },
+        "repluse": {
+          distance: 200,
+          duration: 1.2
+        }
+      }
     },
     "retina_detect": true
   }
