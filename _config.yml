@@ -14,7 +14,7 @@ baseurl: ""
 username: Peter Cao
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Jekyll Theme
+typing_text: Placeholder text.
 # email: Your E-Mail address for the email button.
 email: peterspellingbee@gmail.com
 # For every social button you want to display, set your username or userid
@@ -53,7 +53,7 @@ show_timeline_card: true
 timeline_title: Education & Experience
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://example.com/
+cv_download_link: /assets/Peter_s_Resume (1).pdf
 
 # PROJECTS SECTION
 # show_projects_card:
