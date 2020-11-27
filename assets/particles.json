@@ -11,11 +11,14 @@
       "value": ["#734f96"]
     },
     "shape": {
-      "type": "circle",
+      "type": "polygon",
       "stroke": {
         "width": 0,
         "color": "#000000"
       },
+      "polygon": {
+        "nb_sides": 4
+      }
     },
     "opacity": {
       "value": 0.7,
