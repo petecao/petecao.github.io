@@ -71,7 +71,7 @@ projects_title: Projects
 # > setting this to false, will omit your public projects on github
 show_os_projects: true
 # os_projects_title: The will be displayed as the title of your open source projects
-os_projects_title: Open Source Projects
+os_projects_title: Github Projects
 
 # CONTACT SECTION
 # show_contact_card:
@@ -86,7 +86,7 @@ contact_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, se
 # GITHUB-METADATA
 # Set this to your forked repository
 # > e.g. <user>/<user>.github.io
-repository: longpdo/neumorphism
+repository: petecao/petecao.github.io
 projects:
   # sortby:
   # > set this to pushed, if you want to sort your github repositories by time.
