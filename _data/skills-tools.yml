@@ -31,3 +31,6 @@
 
 - name: IntelliJ
   weight: 5
+
+- name: SceneBuilder
+  weight: 4
