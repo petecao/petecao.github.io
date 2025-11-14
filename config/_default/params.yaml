@@ -5,8 +5,8 @@
 
 # Appearance
 appearance:
-  mode: dark
-  color: sky
+  mode: system
+  color: indigo
 
 # SEO
 marketing:
@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A computer architect and compiler engineer finding faster systems.'
-    twitter: 'peter_p_cao'
+    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
+    twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -30,12 +30,12 @@ marketing:
 header:
   navbar:
     enable: true
-    blox: "navbar"
+    block: 'navbar'
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Peter Cao"
+      text: 'Your Name'
 
 # Site footer
 footer:
