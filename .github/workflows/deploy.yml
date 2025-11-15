@@ -95,6 +95,22 @@ jobs:
           pnpm dlx pagefind --source "public" || npx pagefind --source "public"
         fi
 
+        - name: Show Hugo config & publishDir
+      run: |
+        hugo config  # shows publishDir + baseURL
+        grep -E "publishDir|baseURL" config.* || true
+
+    - name: List generated files (top-level)
+      run: |
+        echo "Public dir listing:"
+        ls -la public || true
+        echo "--- recursive listing (first 200 lines) ---"
+        find public -maxdepth 3 -type f -printf "%p %s\n" | sort | sed -n '1,200p' || true
+
+    - name: Check for index.html
+      run: |
+        find public -type f -iname 'index.html' -print || true
+
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v4
       with:
