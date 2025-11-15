@@ -95,7 +95,7 @@ jobs:
           pnpm dlx pagefind --source "public" || npx pagefind --source "public"
         fi
 
-        - name: Show Hugo config & publishDir
+    - name: Show Hugo config & publishDir
       run: |
         hugo config  # shows publishDir + baseURL
         grep -E "publishDir|baseURL" config.* || true
