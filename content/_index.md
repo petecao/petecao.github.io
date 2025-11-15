@@ -32,14 +32,16 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '🖥️ My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I'm a research scientist in the Compilers Creating Custom Processors (CCCP) group at the University of Michigan in the Computer Engineering Lab advised under Prof. Scott Mahlke. I also work closely with Prof. Reetuparna Das. My goals are to combine my knowledge with compilers and computer architectures to make things go *zoom*.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        I am currently working on a collaboration with Los Alamos National Lab for accelerating their HPC applications. My current focus is on speeding up codes with indirect accesses by improving memory accesses. My current approach is exploring compiler optimizations that increase spatial locality.
+
+        In the future, I intend to explore these techniques and how they can be extended to other applications, such as adaptive mesh refinement or in sparse LLM inference.
         
-        Please reach out to collaborate 😃
+        Please reach out if you want to learn more or collaborate! 👍
     design:
       columns: '1'
   # - block: collection
@@ -73,35 +75,35 @@ sections:
   #   design:
   #     view: article-grid
   #     columns: 1
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+  # - block: collection
+  #   id: news
+  #   content:
+  #     title: Recent News
+  #     subtitle: ''
+  #     text: ''
+  #     # Page type to display. E.g. post, talk, publication...
+  #     page_type: post
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 5
+  #     # Filter on criteria
+  #     filters:
+  #       author: ""
+  #       category: ""
+  #       tag: ""
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ""
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
+  #   design:
+  #     # Choose a layout view
+  #     view: date-title-summary
+  #     # Reduce spacing
+  #     spacing:
+  #       padding: [0, 0, 0, 0]
   # - block: cta-card
   #   demo: false # Only display this section in the Hugo Blox Builder demo site
   #   content:
