@@ -30,13 +30,11 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
+  - icon: envelope
     url: 'mailto:petepc@umich.edu'
     label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/peter_p_cao
-  # - icon: brands/instagram
-  #   url: https://www.instagram.com/
   - icon: brands/github
     url: https://github.com/petecao
   - icon: brands/linkedin
@@ -181,8 +179,16 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-## About Me
+<span style="font-family: monospace;">Pronouns: He/Him</span>
 
-<!-- Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks. -->
+<span style="font-family: monospace;">Office: 4861 Bob and Betty Beyster Building</span>
 
-Hi! I'm a second-year PhD (about to be) candidate in Computer Science and Engineering (CSE) at the University of Michigan - Ann Arbor.
+<span style="font-family: monospace;">Email: [petepc@umich.edu](mailto:petepc@umich.edu)</span>
+
+Hi! I'm Peter, a second-year PhD (about to be) candidate in Computer Science and Engineering (CSE) at the University of Michigan - Ann Arbor. My main research interest is in hardware-software co-design for different applications, but currently focusing more on the software side of things with compilers, although that might change in the future! Starting Fall 2026, I am looking to also take on GSI roles, focusing on more systems and computer architecture courses.
+
+I graduated from Cornell in May 2024 double majoring in Computer Science and Engineering Physics while minoring in Electrical and Computer Engineering (ECE, basically got it for free with EE physics classes and CE classes from CS). For things not in my main research focus, I am also interested in pure programming language theory, algorithms and theory of computation, VLSI (still learning about it), and just about anything physics related, especially quantum computing and quantum field theory + particle physics. While at Cornell, I used to do research in quantum computing (something I don't do anymore but is still interesting), HLS optimizations such as quantization (don't work on FPGAs rn but optimizations might be useful), and PIM architectures (only really did benchmarking but this is definitely something that I'll learn more eventually).
+
+If I'm not in my office or in class while still going to campus, I've been involved in helping organize the University of Michigan Science Olympiad Invitational and Regional contests. Besides that, I am also very active in two honors societies on campus (PSA: no, they are NOT fraternities): [Eta Kappa Nu, or HKN](https://hkn.eecs.umich.edu) (for EECS), and [Tau Beta Pi](https://tbp.engin.umich.edu) (for Engineering). I enjoy spending my time being social as well as participating in service events, especially increasing outreach for CS and engineering. I am also part of a group trying to reopen a closed cafe on campus, so stay tuned for that! :)
+
+When I'm not going to campus, I am an avid player of [Archipelago](https://archipelago.gg) randomized games, occasionally joining sessions that can last as little as 1 hour or as long as 2 months. I am very, very passionate with solving puzzles competively, sometimes taking [whole](https://2025.galacticpuzzlehunt.com/puzzles) [weekends](https://2025.teammatehunt.com/puzzles) or [entire months](https://2024.adventhunt.com/puzzles/), and sometimes even [traveling across the country](https://puzzles.mit.edu/index.html) for them.
