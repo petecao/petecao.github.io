@@ -55,10 +55,16 @@ education:
     date_start: 2024-08-26
     date_end: 
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+      Advised under [Prof. Scott Mahlke](https://web.eecs.umich.edu/~mahlke/), doing research in hardware-software codesign for high performance computing.
+
+      GPA: 4.1/4.0
+
+      Courses of note: Advanced Topics in Computer Architecture (EECS 573), [Parallel Computer Architecture (EECS 570)](https://www.eecs.umich.edu/courses/eecs570/), [Scalable Systems for Generative AI (CSE 585)](https://github.com/mosharaf/cse585/tree/f24)
+
+      Activities: UM Science Olympiad, Tau Beta Pi Engineering Honors Society, Eta Kappa Nu EECS Honors Society
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://example.com'
   # - area: MEng Artificial Intelligence
   #   institution: Massachusetts Institute of Technology
   #   date_start: 2016-01-01
@@ -75,108 +81,132 @@ education:
     date_start: 2020-09-02
     date_end: 2024-05-26
     summary: |
-      GPA: 3.4/4.0
+      GPA: 3.713/4.0
+
+      Did research under: Peter McMahon (Quantum Variational Algorithms for PDEs), Zhiru Zhang (CNN Quantization Techniques + HLS), Mark Wilde (Quantum Machine Learning), Jose Martinez (Benchmarks for PIM architectures)
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Courses of note: [Discrete Structures - Honors (CS 2802)](https://www.cs.cornell.edu/courses/cs2802/2020fa/), [Object-Oriented Design and Data Structures (Honors) (CS 2112)](https://www.cs.cornell.edu/courses/cs2112/2020fa/), Engineering Quantum Information Hardware (AEP 2550), [Quantum Information Processing (CS 4812)](https://courses.cit.cornell.edu/physics4481-7681_2021fa/), [Data Structures and Functional Programming (CS 3110)](https://cs3110.github.io/textbook/cover.html), [Introduction to Compilers (CS 4120/4121)](https://www.cs.cornell.edu/courses/cs4120/2022sp/), Statistical Thermodynamics (AEP 4230), [Introduction to Natural Language Processing (CS 4740)](https://www.cs.cornell.edu/courses/cs4740/2022fa/), [Computer Architecture (ECE 4750)](https://www.csl.cornell.edu/courses/ece4750fa22/), Quantum Mechanics (PHYS 6572), Classical Electrodynamics (PHYS 6561), Program Synthesis (CS 6172), [Digital Systems Design Using Microcontrollers (ECE 4760)](https://ece4760.github.io), Introduction to Particle Physics (PHYS 4444), [Programming Languages and Logics (CS 4110)](https://www.cs.cornell.edu/courses/cs4110/2024sp/), [Distributed Computing Principles (CS 5414)](https://www.cs.cornell.edu/courses/cs5414/2024sp)
+
+      Activities: Cornell Science Olympiad, Applied & Engineering Physics Society, TA for various courses in CS, ECE, and AEP (see [Teaching](/teaching/))
+      
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: SWE Intern
+    company_name: Google
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2024-05-01
+    date_end: 2024-08-31
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Implementing Halide-like tools to Google's Edge TPU compiler
+      - Implemented tools used for the Pixel phone line
+      - Implemented tools used for vision and Gemini models
+  - position: SWE Intern
+    company_name: Google
+    company_url: ''
+    company_logo: ''
+    date_start: 2023-05-01
+    date_end: 2023-08-31
+    summary: |
+      Responsibilities include:
+      - Improved classification subcategories in Gmail
+      - Implemented a backend and frontend for custom email refinement in Gmail's Help Me Write tool
+  - position: Machine Learning Compiler Intern
+    company_name: Apple
+    company_url: ''
+    company_logo: ''
+    date_start: 2023-01-01
+    date_end: 2023-05-31
+    summary: |
+      Responsibilities include:
+      - Implemented tooling for Apple's MLIR compiler similar to llvm-reduce, minimizing models for numerical stability cases
+      - Implemented tooling used for on-device model inference for a wide variety of applications
+  - position: STEP Intern
+    company_name: Google
+    company_url: ''
+    company_logo: ''
+    date_start: 2022-05-01
+    date_end: 2022-08-31
+    summary: |
+      Responsibilities include:
+      - Implemented class features from ECMAScript into the Closure compiler
+      - Transpiled code with classes to code without classes
+      - Identified bugs in the current Closure compiler that prevented proper transpilation
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Programming Languages
     items:
       - name: Python
         description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
+        icon: devicon/python
+      - name: C++
         description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
+        icon: devicon/cplusplus
+      - name: OCaml
         description: ''
-        percent: 40
-        icon: circle-stack
+        icon: devicon/ocaml
+      - name: Java
+        description: ''
+        icon: devicon/java
+      - name: LaTeX
+        description: ''
+        icon: devicon/latex
+      - name: SystemVerilog
+        description: ''
+        icon: ''
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
+      - name: Puzzle Hunts
+        description: ''
+      - name: Swimming
+        description: ''
       - name: Hiking
         description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
+      - name: Archipelago Randomizer
         description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
 
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+# languages:
+#   - name: English
+#     percent: 100
+#   - name: Chinese
+#     percent: 75
+#   - name: Portuguese
+#     percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+# awards:
+#   - title: Neural Networks and Deep Learning
+#     url: https://www.coursera.org/learn/neural-networks-deep-learning
+#     date: '2023-11-25'
+#     awarder: Coursera
+#     icon: coursera
+#     summary: |
+#       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+#   - title: Blockchain Fundamentals
+#     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+#     date: '2023-07-01'
+#     awarder: edX
+#     icon: edx
+#     summary: |
+#       Learned:
+#       - Synthesize your own blockchain solutions
+#       - Gain an in-depth understanding of the specific mechanics of Bitcoin
+#       - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+#   - title: 'Object-Oriented Programming in R'
+#     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+#     certificate_url: https://www.datacamp.com
+#     date: '2023-01-21'
+#     awarder: datacamp
+#     icon: datacamp
+#     summary: |
+#       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
 <span style="font-family: monospace;">Pronouns: He/Him</span>
