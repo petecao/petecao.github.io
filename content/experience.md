@@ -32,4 +32,8 @@ sections:
   #   content:
   #     title: Languages
   #     username: admin
+
+  
 ---
+<!-- {{< pdf src="/uploads/resume.pdf" height="900px" >}} -->
+
