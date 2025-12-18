@@ -57,9 +57,9 @@ education:
     summary: |
       Advised under [Prof. Scott Mahlke](https://web.eecs.umich.edu/~mahlke/), doing research in hardware-software codesign for high performance computing.
 
-      GPA: 4.1/4.0
+      GPA: 4.142/4.0
 
-      Courses of note: Advanced Topics in Computer Architecture (EECS 573), [Parallel Computer Architecture (EECS 570)](https://www.eecs.umich.edu/courses/eecs570/), [Scalable Systems for Generative AI (CSE 585)](https://github.com/mosharaf/cse585/tree/f24)
+      Courses of note: Advanced Topics in Computer Architecture (EECS 573), [Parallel Computer Architecture (EECS 570)](https://www.eecs.umich.edu/courses/eecs570/), [Scalable Systems for Generative AI (CSE 585)](https://github.com/mosharaf/cse585/tree/f24), [Advanced Compilers (CSE 583)](https://web.eecs.umich.edu/~mahlke/courses/583f25/)
 
       Activities: UM Science Olympiad, Tau Beta Pi Engineering Honors Society, Eta Kappa Nu EECS Honors Society
     # button:
